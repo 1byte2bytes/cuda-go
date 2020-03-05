@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.2-runtime-ubuntu18.04
+FROM nvidia/cuda:10.2-devel-ubuntu18.04
 LABEL maintainer "Sydney Anne Erickson <sydneyerickson@icloud.com>"
 
 RUN apt update
